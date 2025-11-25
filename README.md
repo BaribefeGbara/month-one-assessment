@@ -236,7 +236,7 @@ SELECT version();    # Check PostgreSQL version
 \q                   # Quit
 ```
 
-## 🔧 Implementation Notes & Challenges
+## Implementation Notes & Challenges
 
 ### Challenge 1: Load Balancer Type Restriction
 
@@ -303,7 +303,7 @@ sudo systemctl enable httpd
 5. **User data scripts need validation** - they may fail silently during boot
 6. **Port numbers matter** - ensure security groups match actual services deployed
 
-## 📊 Infrastructure Resources Created
+## Infrastructure Resources Created
 
 Total resources created: **35+**
 
@@ -328,7 +328,7 @@ Total resources created: **35+**
 - 1 Load Balancer Listener
 - Health check configurations
 
-## 📅 Deployment Timeline
+## Deployment Timeline
 
 | Phase | Task | Status | Notes |
 |-------|------|--------|-------|
@@ -341,7 +341,7 @@ Total resources created: **35+**
 | Phase 7 | Final verification | Complete | Website accessible via CLB |
 | Phase 8 | Documentation & submission | Complete | All evidence gathered |
 
-## 🧹 Cleanup Instructions
+## Cleanup Instructions
 
 **IMPORTANT**: To avoid ongoing AWS charges, destroy all resources after review.
 
@@ -378,7 +378,7 @@ If some resources fail to delete automatically:
 3. **Wait 5 minutes** for dependencies to clear
 4. **Run** `terraform destroy` again
 
-## 📊 Cost Estimation
+## Cost Estimation
 
 Approximate monthly costs (us-east-1 region):
 
@@ -401,7 +401,7 @@ Approximate monthly costs (us-east-1 region):
 4. **Session Manager**: Eliminates need for SSH keys in most cases
 5. **No Hardcoded Credentials**: All sensitive data in terraform.tfvars (gitignored)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Terraform**: Infrastructure as Code
 - **AWS VPC**: Network isolation
@@ -412,7 +412,7 @@ Approximate monthly costs (us-east-1 region):
 - **AWS Systems Manager**: Secure instance access
 - **Amazon Linux 2**: Operating system
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Terraform AWS Provider Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [AWS VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/)
@@ -435,7 +435,7 @@ This project is created for educational purposes as part of the TechCorp Cloud E
 
 **Deployment Evidence**: All 8 required screenshots included in `evidence/` folder
 
-**Repository**: [https://github.com/YOUR-USERNAME/month-one-assessment](https://github.com/YOUR-USERNAME/month-one-assessment)
+**Repository**: [https://github.com/YOUR-USERNAME/month-one-assessment](https://github.com/BaribefeGbara/month-one-assessment)
 
 ---
 
