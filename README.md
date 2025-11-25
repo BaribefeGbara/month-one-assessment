@@ -1,6 +1,6 @@
 # TechCorp AWS Infrastructure Deployment
 
-## 📋 Project Overview
+## Project Overview
 
 This repository contains the complete Terraform configuration for deploying TechCorp's web application infrastructure on AWS. The infrastructure is designed for high availability, security, and scalability across multiple availability zones.
 
@@ -13,7 +13,7 @@ TechCorp is launching a new web application that requires:
 - Bastion host for secure administrative access
 - Scalable architecture that can grow with business needs
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The infrastructure includes the following components:
 
@@ -42,7 +42,7 @@ The infrastructure includes the following components:
 - **Database Server**: 1x t3.small in private subnet with PostgreSQL
 - **Load Balancer**: Classic Load Balancer distributing traffic to web servers
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 terraform-assessment/
@@ -67,7 +67,7 @@ terraform-assessment/
     └── 08-session-manager-database-postgresql.png # DB access & PostgreSQL
 ```
 
-## 🚀 Prerequisites
+## Prerequisites
 
 Before deploying this infrastructure, ensure you have:
 
@@ -97,7 +97,7 @@ Before deploying this infrastructure, ensure you have:
    - Provides secure access without SSH keys
    - Requires IAM role attached to instances
 
-## 📝 Deployment Instructions
+## Deployment Instructions
 
 ### Step 1: Clone the Repository
 
@@ -168,7 +168,7 @@ This displays:
 - **web_server_private_ips**: Private IPs of web servers
 - **database_private_ip**: Private IP of database server
 
-## 🔍 Verification Steps
+## Verification Steps
 
 ### 1. Verify AWS Resources
 
@@ -332,14 +332,14 @@ Total resources created: **35+**
 
 | Phase | Task | Status | Notes |
 |-------|------|--------|-------|
-| Phase 1 | Initial Terraform configuration | ✅ Complete | Created all .tf files |
-| Phase 2 | First deployment attempt | ✅ Complete | 35 resources created |
-| Phase 3 | Troubleshooting web servers | ✅ Complete | User data scripts failed |
-| Phase 4 | Manual Apache installation | ✅ Complete | Via Session Manager |
-| Phase 5 | IAM role configuration | ✅ Complete | Enabled Session Manager access |
-| Phase 6 | Load balancer registration | ✅ Complete | Instances marked InService |
-| Phase 7 | Final verification | ✅ Complete | Website accessible via CLB |
-| Phase 8 | Documentation & submission | ✅ Complete | All evidence gathered |
+| Phase 1 | Initial Terraform configuration | Complete | Created all .tf files |
+| Phase 2 | First deployment attempt | Complete | 35 resources created |
+| Phase 3 | Troubleshooting web servers | Complete | User data scripts failed |
+| Phase 4 | Manual Apache installation | Complete | Via Session Manager |
+| Phase 5 | IAM role configuration | Complete | Enabled Session Manager access |
+| Phase 6 | Load balancer registration | Complete | Instances marked InService |
+| Phase 7 | Final verification | Complete | Website accessible via CLB |
+| Phase 8 | Documentation & submission | Complete | All evidence gathered |
 
 ## 🧹 Cleanup Instructions
 
@@ -393,7 +393,7 @@ Approximate monthly costs (us-east-1 region):
 
 **Note**: Destroy resources immediately after assessment to minimize costs.
 
-## 🔐 Security Best Practices Implemented
+##  Security Best Practices Implemented
 
 1. **Network Isolation**: Web and database servers in private subnets
 2. **Principle of Least Privilege**: Security groups restrict access to minimum required
@@ -419,21 +419,19 @@ Approximate monthly costs (us-east-1 region):
 - [AWS EC2 User Guide](https://docs.aws.amazon.com/ec2/)
 - [Terraform Best Practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html)
 
-## 🤝 Support & Contact
+##  Support & Contact
 
 For questions or issues with this deployment:
 
-- **GitHub Issues**: [Create an issue](https://github.com/YOUR-USERNAME/month-one-assessment/issues)
-- **Email**: your.email@example.com
-- **Instructor**: [Instructor Name/Contact]
+- **GitHub Issues**: [Create an issue](https://github.com/BaribefeGbara/month-one-assessment/issues)
+- **Email**: your.gbarabaribefe@gmail.com
 
-## 📄 License
+##  License
 
 This project is created for educational purposes as part of the TechCorp Cloud Engineering Assessment.
 
 ---
 
-**Assignment Completion Status**: ✅ Complete
 
 **Deployment Evidence**: All 8 required screenshots included in `evidence/` folder
 
