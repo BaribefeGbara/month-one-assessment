@@ -1,0 +1,33 @@
+# ========================================
+# Terraform Variables Example File
+# ========================================
+# 
+# INSTRUCTIONS:
+# 1. Copy this file: cp terraform.tfvars.example terraform.tfvars
+# 2. Edit terraform.tfvars and replace YOUR_IP_HERE with your actual IP
+# 3. Get your IP from: curl ifconfig.me
+# 4. IMPORTANT: Add /32 at the end of your IP address
+#
+# Example: my_ip = "203.0.113.45/32"
+#
+# DO NOT commit terraform.tfvars to Git (it contains your IP address)
+# ========================================
+
+# REQUIRED: Your public IP address for SSH access to bastion
+# Get it from: https://whatismyipaddress.com/ or run: curl ifconfig.me
+# Format: xxx.xxx.xxx.xxx/32 (don't forget the /32!)
+my_ip = "YOUR_IP_HERE/32"
+
+# Optional: Change AWS region (default: us-east-1)
+# aws_region = "us-west-2"
+
+# Optional: Change instance types (defaults shown below)
+# bastion_instance_type = "t3.micro"
+# web_instance_type = "t3.micro"
+# db_instance_type = "t3.small"
+
+# Optional: Change project name (default: techcorp)
+# project_name = "myproject"
+
+# Optional: Change availability zones
+# availability_zones = ["us-east-1a", "us-east-1b"]
