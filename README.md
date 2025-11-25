@@ -424,7 +424,7 @@ Approximate monthly costs (us-east-1 region):
 For questions or issues with this deployment:
 
 - **GitHub Issues**: [Create an issue](https://github.com/BaribefeGbara/month-one-assessment/issues)
-- **Email**: your.gbarabaribefe@gmail.com
+- **Email**: gbarabaribefe@gmail.com
 
 ##  License
 
@@ -435,7 +435,7 @@ This project is created for educational purposes as part of the TechCorp Cloud E
 
 **Deployment Evidence**: All 8 required screenshots included in `evidence/` folder
 
-**Repository**: [https://github.com/YOUR-USERNAME/month-one-assessment](https://github.com/BaribefeGbara/month-one-assessment)
+**Repository**: [https://github.com/BaribefeGbara/month-one-assessment](https://github.com/BaribefeGbara/month-one-assessment)
 
 ---
 
